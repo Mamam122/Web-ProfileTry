@@ -1,22 +1,91 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
 <head>
-	<title>AOV</title>
+	<title>Profile</title>
+	<meta name="viewport" content="width=divice-width,initial-scale-1.0">
 	<link href="style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 	<nav>
+		<div class ="menu-mobile">
+			<a herf="#">Menu</a>
+		</div>
 		<ul>
-			<li><a href="#"> Home</a></li>
-			<li><a href="#"> Home</a></li>
-			<li><a href="#"> Home</a></li>
-			<li><a href="#"> Home</a></li>
-			<li><a href="#"> Home</a></li>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Home</a></li>
 		</ul>
 	</nav>
-	<section>
-		<div>
-			<img src="qq.png" alt="">
+	<section id="box-profile">
+		<div class="img-profile">
+			<div class="photo" style="background-image:url(qq.png);"></div>
 		</div>
+
+		<div class="deskripsi">  
+			<hi>Airlangga</hi>
+			<p>Font End Designer</p>
+			<a href="#" class="button bg-green">Contac</a>
+			<a href="#" class="button border-blue">Resume</a>
+		</div>
+		<div class="information">
+			<div class="data">
+				<p class="field">Availablility</p>
+				<p class="text-gray">Full TIme</p>
+			</div> 
+		
+			<div class="data">
+				<p class="field">Availablility</p>
+				<p class="text-gray">Full TIme</p>
+			</div >
+		
+			<div class="data">
+				<p class="field">Availablility</p>
+				<p class="text-gray">Full TIme</p>
+			</div>
+
+			<div class="data">
+				<p class="field">Availablility</p>
+				<p class="text-gray">Full TIme</p>
+			</div>
+		</div>
+	</section>
+
+	<section id="input-form">
+		<form method="#" action="#">
+			<div class="forn">
+				<label>Name</label>
+				<input type="text" name="name" placeholder="Masukkan Nama">
+			</div>
+			<div class="forn">
+				<label>Role</label>
+				<input type="text" name="role" placeholder="Masukkan Role">
+			</div>
+			<div class="forn">
+				<label>Availablility</label>
+				<input type="text" name="availablility" >
+			</div>
+			<div class="forn">
+				<label>Age</label>
+				<input type="number" name="age" placeholder="Masukkan Umur">
+			</div>
+			<div class="forn">
+				<label>Location</label>
+				<input type="text" name="location" placeholder="Masukkan Lokasi">
+			</div>
+			<div class="forn">
+				<label>Years Experience</label>
+				<input type="number" name="years" >
+			</div>
+			<div class="forn">
+				<label>Email</label>
+				<input type="email" name="email" placeholder="Masukkan Email">
+			</div>
+			<div class="forn">
+				<input type="submit" name="submit" value="SUBMIT" class="bg-blue">
+				
+			</div>
+		</form>
 	</section>
 </body>
